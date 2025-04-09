@@ -120,10 +120,67 @@ footer {
     border: 0;
 }
 
-@media (max-width: 768px) {
-    .sm-hidden {
-        display: none;
-    }
+
+#page-header {
+    margin-top: 80px;
+}
+.entry-header {
+    background-image: none;
+    height: 100px;
+}
+/*
+.header-logo {
+    margin-left: -100px;
+}*/
+#main-nav {
+    box-shadow:none;
+}
+.main-nav-sidebar {
+    display:none;
+}
+.page-content {
+    margin-left: 400px;
+}
+.featured-slider-area {
+    display:none;
+}
+.sidebar-left {
+    display:none;
+}
+.sidebar-right {
+    /*display:none;*/
+    /*margin-left: -100px;*/
+    padding-left: 0px;
+    float: left;
+}
+.main-container {
+    float: left;
+    width: 65%;
+}
+.header-logo a {
+    font-size: 50px;
+    text-transform: none;
+    color: black;
+    margin-left: -800px;
+}
+.footer-copyright {
+    display:none;
+}
+.page-footer-inner:after {
+    content: "Powered by rvh@2025"
+}
+.header-logo a:after{
+    content: "Robert van Haarlem";
+    font-family: 'Playfair Display';
+    display: block;
+    font-size: 50px;
+    color: rgba(0,0,0,.65);
+    transform: rotate3d(1, 0, 0, 148deg) scale(1, 1) skew(-20deg, 0deg);
+    margin: 30px 10 10 0px;
+}
+
+.post-header {
+    text-align: left;
 }
 
 /* Highlight.js Tomorrow Night style */
@@ -196,3 +253,10 @@ footer {
 	margin-left: -10px;
 }
 }
+
+@media (max-width: 768px) {
+    .sm-hidden {
+        display: none;
+    }
+}
+
