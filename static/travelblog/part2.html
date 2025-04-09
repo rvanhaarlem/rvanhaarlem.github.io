@@ -12,6 +12,7 @@
     <title>Our adventure in Latin-Amerika in 2013</title>
 
     <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
@@ -33,37 +34,10 @@
 
 <body data-rsssl=1 class="home page-template-default page page-id-176 logged-in admin-bar no-customize-support wp-embed-responsive">
 
-	<div class="entry-header">
-		<div class="cv-outer">
-		<div class="cv-inner">
-			<div class="header-logo">
-            <h1><a href="https://www.vanhaarlem.ch/" class="header-logo-a">Robert van Haarlem</a></h1>
-				<p class="site-description">Personal website and contact information for Robert van Haarlem</p>
-			</div>
-		</div>
-		</div>
-	</div>
+    <nav x-data="{ isSticky: false }" x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })" class="sticky top-0 z-30 mt-4 lg:mt-8 py-4" :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }"><div class="container flex justify-between px-4"><section class="flex items-center gap-4"><div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!"><div class="h-10 rounded-full"><img src="/img/avatar.jpg" alt="Robert van Haarlem"></div></div><div><a href="https://rvanhaarlem.github.io/" class="text-lg font-semibold cursor-pointer">Robert van Haarlem</a><div class="text-base-content/60 text-sm">Be yourself; everyone else is already taken — Oscar Wilde</div></div></section><div class="dropdown dropdown-end sm:hidden"><div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option"><ion-icon name="menu" class="text-2xl md hydrated" role="img"></ion-icon></div><ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md"><li><div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About"><ion-icon name="information-circle" role="img" class="md hydrated"></ion-icon>About</div></li><li><a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Search"><ion-icon name="search" role="img" class="md hydrated"></ion-icon>Search</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS"><ion-icon name="logo-rss" role="img" class="md hydrated"></ion-icon>RSS</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/rvanhaarlem" target="_blank" title="GitHub"><ion-icon name="logo-github" role="img" class="md hydrated"></ion-icon>GitHub</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href="/" target="" title="Home">Home</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href="/travelblog/part1.html" target="_blank" title="Travel Blog">Travel Blog</a></li></ul></div><section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4"><div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Search"><ion-icon class="group-hover:text-primary-content md hydrated" name="search" role="img"></ion-icon></a><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS"><ion-icon class="group-hover:text-primary-content md hydrated" name="logo-rss" role="img"></ion-icon></a><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://github.com/rvanhaarlem" target="_blank" title="GitHub"><ion-icon class="group-hover:text-primary-content md hydrated" name="logo-github" role="img"></ion-icon></a><a class="text-sm font-semibold cursor-pointer hover:underline" href="/" target="" title="Home">Home
+        </a><a class="text-sm font-semibold cursor-pointer hover:underline" href="/travelblog/part1.html" target="_blank" title="Travel Blog">Travel Blog</a></section></div>
+    </nav>
 
-
-<div id="main-nav" class="clear-fix">
-	<div >
-		<!-- Alt Sidebar Icon -->
-		<!-- Mini Logo -->
-		<!-- Icons -->
-		<div class="main-nav-icons"></div>
-
-		<nav class="main-menu-container">
-			<ul id="main-menu" class="">
-				<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-176 current_page_item menu-item-179"><a href="https://www.vanhaarlem.ch/" aria-current="page">Home</a></li>
-			</ul>
-		</nav>
-
-		<nav class="mobile-menu-container">
-			<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-176 current_page_item menu-item-179"><a href="https://www.vanhaarlem.ch/" aria-current="page">Home</a></li></ul>
-		</nav>
-	</div>
-
-</div><!-- #main-nav -->
 <div id="family-content">
 
     <h1>Our adventure in Latin America in 2013</h1>
