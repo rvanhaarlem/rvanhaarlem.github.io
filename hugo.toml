@@ -153,6 +153,7 @@ paginate = 15
 
   [params.navItems]
   series = { href = "/", title = "Home" }
+  travelblog = { href="/travelblog/", title= "Travel Blog", target = "_blank"}
   github = { href = "https://github.com/rvanhaarlem", target = "_blank", icon = "logo-github", title = "GitHub" }
 
   [params.advanced]
