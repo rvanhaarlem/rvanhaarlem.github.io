@@ -92,9 +92,7 @@ paginate = 15
 
   # options
   stickyNav = true
-  showSummaryCoverInPost = true
-  # reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
-  # collapseNavItems = ["posts", "categories", "tags"]
+  # showSummaryCoverInPost = true
   # noDefaultSummaryCover = true
   imageZoomableInPost = true
 
@@ -147,7 +145,7 @@ paginate = 15
   #disableFlip = true
   #hideBackSocialLinks = true
   #reorderNavItems = ["series", "search", "posts", "categories", "galleries", "travelblog"]
-  collapseNavItems = ["posts", "categories", "galleries", "travelblog"]
+  #collapseNavItems = ["posts", "categories", "galleries", "travelblog"]
 
   # [params.experimental]
   #   jsDate = true
@@ -156,7 +154,7 @@ paginate = 15
   [params.navItems]
   series = { href = "/", title = "Home" }
   travelblog = { href="/travelblog/part1.html", title= "Travel Blog", target = "_blank"}
-  galleries = { href="/posts/galleries/", title= "Galleries", target = "_blank"}
+  galleries = { href="/galleries/", title= "Galleries", target = "_blank"}
   github = { href = "https://github.com/rvanhaarlem", target = "_blank", icon = "logo-github", title = "GitHub" }
 
   [params.advanced]
