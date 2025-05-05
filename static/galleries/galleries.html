@@ -13,23 +13,43 @@
     <link rel="stylesheet" href="/css/output.min.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" async></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.js" async></script>
 	<script src="https://kit.fontawesome.com/0149c46fce.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 
-	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<style>
+        img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }
 
-	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
 
-	<meta name="generator" content="WordPress 6.7.2" />
-	<meta name="msapplication-TileImage" content="https://www.vanhaarlem.ch/wp-content/uploads/2023/06/cropped-ThinkstockPhotos-538323196-web-270x270.jpg" />
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-<div class="gallery gallery3"><a href="https://www.icloud.com/photos/#/sa,FS-9d41975c-f31d-4788-8e29-847d97127f73/" target="_blank" data-caption=""><img src="family.jpg" alt="" /></a></div>
+
+    <div class="gallery">
+        <a target="_blank" href="https://www.icloud.com/sharedalbum/#B2cJtdOXmTRHbl">
+            <img src="family.jpg" alt="Family" width="600" height="400">
+        </a>
+        <div class="desc">Family</div>
+    </div>
+
 </body>
 </html>
