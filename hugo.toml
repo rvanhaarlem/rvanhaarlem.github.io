@@ -146,7 +146,8 @@ paginate = 15
   collapseBySummary = true
   #disableFlip = true
   #hideBackSocialLinks = true
-  reorderNavItems = ["series", "search", "posts", "categories", "galleries", "travelblog"]
+  #reorderNavItems = ["series", "search", "posts", "categories", "galleries", "travelblog"]
+  collapseNavItems = ["posts", "categories", "galleries", "travelblog"]
 
   # [params.experimental]
   #   jsDate = true
